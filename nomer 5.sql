@@ -1,0 +1,7 @@
+CREATE FUNCTION hapus()
+RETURNS VARCHAR
+BEGIN
+DECLARE n VARCHAR;
+DELETE from data_pegawai where nik="200000067";
+RETURN n;
+END
